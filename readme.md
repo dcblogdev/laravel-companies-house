@@ -77,8 +77,8 @@ To make things a little easier there is also trait classes provided:
 Each Trait class provides convinient methods that call the end points, processes the data and returns json of the results.
 
 Search
-* search($term) - search across all indexed information. 
-* searchCompany($term) - searches companies
+* CompaniesHouse::search($term) - search across all indexed information. 
+* CompaniesHouse::searchCompany($term) - searches companies
 
 
 
