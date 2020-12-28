@@ -1,5 +1,5 @@
 <?php
-namespace Daveismyname\CompaniesHouse\Traits;
+namespace Dcblogdev\CompaniesHouse\Traits;
 
 trait Search
 {

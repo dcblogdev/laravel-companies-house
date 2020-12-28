@@ -1,9 +1,9 @@
 <?php
-namespace Daveismyname\CompaniesHouse;
+namespace Dcblogdev\CompaniesHouse;
 
 use GuzzleHttp\Client;
 use Exception;
-use Daveismyname\CompaniesHouse\Traits\Search;
+use Dcblogdev\CompaniesHouse\Traits\Search;
 
 class CompaniesHouse
 {

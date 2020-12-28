@@ -1,34 +1,34 @@
 {
-    "name": "daveismyname/laravel-companies-house",
+    "name": "dcblogdev/laravel-companies-house",
     "description": "A Laravel Companies House package",
     "license": "MIT",
     "authors": [
         {
             "name": "David Carr",
-            "email": "dave@daveismyname.com",
-            "homepage": "https://daveismyname.blog"
+            "email": "dave@dcblog.dev",
+            "homepage": "https://dcblog.dev"
         }
     ],
-    "homepage": "https://github.com/daveismyname/laravel-companies-house",
+    "homepage": "https://github.com/dcblogdev/laravel-companies-house",
     "keywords": [
         "Laravel",
         "Companies House"
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6"
+        "guzzlehttp/guzzle": "^6|^7"
     },
     "autoload": {
         "psr-4": {
-            "Daveismyname\\CompaniesHouse\\": "src/"
+            "Dcblogdev\\CompaniesHouse\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Daveismyname\\CompaniesHouse\\CompaniesHouseServiceProvider"
+                "Dcblogdev\\CompaniesHouse\\CompaniesHouseServiceProvider"
             ],
             "aliases": {
-                "CompaniesHouse": "Daveismyname\\CompaniesHouse\\Facades\\CompaniesHouse"
+                "CompaniesHouse": "Dcblogdev\\CompaniesHouse\\Facades\\CompaniesHouse"
             }
         }
     }

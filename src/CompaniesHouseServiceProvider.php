@@ -1,6 +1,6 @@
 <?php
 
-namespace Daveismyname\CompaniesHouse;
+namespace Dcblogdev\CompaniesHouse;
 
 use Illuminate\Support\ServiceProvider;
 
