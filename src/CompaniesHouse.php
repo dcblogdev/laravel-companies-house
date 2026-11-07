@@ -48,7 +48,7 @@ class CompaniesHouse
 
             $response = $client->get(self::$baseUrl.$request, [
                 'headers' => [
-                    'Authorization' => config('companieshouse.key'),
+                    'Authorization' => (string) config('companieshouse.key'),
                 ]
             ]);
 
